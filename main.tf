@@ -5,6 +5,6 @@ resource "random_pet" "repo_01" {
   } 
 }
 
-output "submodule_pet" {
+output "repo_01_pet" {
   value = resource.random_pet.repo_01.id
 }
